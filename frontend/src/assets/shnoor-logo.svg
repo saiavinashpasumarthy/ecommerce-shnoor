@@ -1,0 +1,18 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="yinYang">
+      <circle cx="50" cy="50" r="45"></circle>
+    </clipPath>
+  </defs>
+
+  <circle cx="50" cy="50" r="45" fill="#0B1F3A"></circle>
+
+  <path d="M50 5
+       A45 45 0 0 1 50 95
+       A22.5 22.5 0 0 1 50 50
+       A22.5 22.5 0 0 0 50 5Z" fill="#E6A83B" clip-path="url(#yinYang)"></path>
+
+  <circle cx="50" cy="27.5" r="7" fill="#0B1F3A"></circle>
+
+  <circle cx="50" cy="72.5" r="7" fill="#E6A83B"></circle>
+</svg>

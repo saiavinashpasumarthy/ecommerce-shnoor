@@ -1,0 +1,128 @@
+.login-page {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+  box-sizing: border-box;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  background: var(--bg) !important;
+  box-shadow: var(--shadow) !important;
+  box-sizing: border-box;
+}
+
+.login-avatar {
+  width: 48px !important;
+  height: 48px !important;
+  margin: 0 auto 20px !important;
+  background: var(--accent) !important;
+}
+
+.login-title {
+  font-family: var(--heading) !important;
+  font-size: 32px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.8px !important;
+  color: var(--text-h) !important;
+  text-align: center;
+}
+
+.login-subtitle {
+  margin-top: 8px !important;
+  color: var(--text) !important;
+  text-align: center;
+  font-size: 15px !important;
+}
+
+.login-form {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.login-field {
+  margin-bottom: 18px !important;
+}
+
+.login-field .MuiOutlinedInput-root {
+  border-radius: 7px;
+  font-family: var(--sans);
+  color: var(--text-h);
+}
+
+.login-field .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border);
+}
+
+.login-field .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--accent-border);
+}
+
+.login-field .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--accent);
+  border-width: 1px;
+}
+
+.login-field label.Mui-focused {
+  color: var(--accent);
+}
+
+.login-button {
+  margin-top: 6px !important;
+  padding: 11px !important;
+  border-radius: 7px !important;
+  background: var(--accent) !important;
+  color: white !important;
+  text-transform: none !important;
+  font-family: var(--sans) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  box-shadow: none !important;
+}
+
+.login-button:hover {
+  background: var(--accent) !important;
+  box-shadow: var(--shadow) !important;
+  opacity: 0.92;
+}
+
+.login-error {
+  margin: -4px 0 12px !important;
+  color: #d32f2f !important;
+  font-size: 14px !important;
+}
+
+.login-register {
+  margin-top: 22px !important;
+  color: var(--text) !important;
+  text-align: center;
+  font-size: 14px !important;
+}
+
+.login-register span {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .login-page {
+    padding: 20px 16px;
+  }
+
+  .login-card {
+    padding: 28px 22px;
+  }
+
+  .login-title {
+    font-size: 28px !important;
+  }
+}
